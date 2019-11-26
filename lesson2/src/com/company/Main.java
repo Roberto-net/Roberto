@@ -52,6 +52,14 @@ public class Main {
              // %
              System.out.println(5%10);
 
+             // String - declare
+                String name = "Jane";
+                switch (name) {
+                    case "Jane":
+                        System.out.println("Yeah");
+                        break;
+                }
+
 
 
              }
