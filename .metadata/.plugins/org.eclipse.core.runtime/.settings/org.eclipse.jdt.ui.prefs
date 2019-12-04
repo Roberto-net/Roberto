@@ -1,6 +1,7 @@
-#Wed Dec 04 08:33:17 GMT+03:00 2019
+#Wed Dec 04 08:39:41 GMT+03:00 2019
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000
 org.eclipse.jdt.ui.text.templates_migrated=true
 useAnnotationsPrefPage=true
 eclipse.preferences.version=1
