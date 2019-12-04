@@ -1,11 +1,11 @@
 package com.company;
 import java.util.Scanner;
-public class hw1up {
+public class Main {
     public static void main(String[] args) {
         /*for (; ; ) {*/
-            Scanner in = new Scanner(System.in);
-            /*System.out.print("Введите проверяемый год: ");*/
-            int num = in.nextInt();
+        Scanner in = new Scanner(System.in);
+        /*System.out.print("Введите проверяемый год: ");*/
+        int num = in.nextInt();
             /*if (year % 400 == 0) {
                 if (year > 0 && year <= 3000)
                     System.out.println("Високостный год");
@@ -26,18 +26,19 @@ public class hw1up {
                     System.out.println("Укажите год между 1 и 3000");
             }
         }*/
-            boolean isPrime;
-            if (num < 2) isPrime=false;
-            else isPrime = true;
-            for (int i = 2 ; i< num/i;i++){
-                if((num % i )==0){
-                    isPrime=false;
-                    break;
-                }
+        boolean isPrime;
+        if (num < 2) isPrime=false;
+        else isPrime = true;
+        for (int i = 2 ; i< Math.sqrt(num);i++){
+            if((num % i )==0){
+                isPrime=false;
+                break;
             }
-            if (isPrime) System.out.println("простое");
-            else System.out.println("не простое");
+        }
+        if (isPrime) System.out.println("простое");
+        else System.out.println("не простое");
+
+
 
     }
 }
-
