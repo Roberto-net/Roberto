@@ -2,7 +2,7 @@ package com.company;
 
 public class main3 {
     public static void main(String[] args) {
-        int k = 12345;
+        int k = 54367;
         int x =k;
         int s = 0;
         while (x != 0 ){
