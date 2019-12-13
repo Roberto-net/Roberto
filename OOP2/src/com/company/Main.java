@@ -19,7 +19,7 @@ public class Main {
         System.out.println(dog2.footCount);
         System.out.println(dog2.color);
         System.out.println(dog2.age);
-        //dog2.say("uy uy");
+        dog2.sayDog("uy uy");
         Dog.Cat cat = new Dog.Cat();
         cat.name = "Rikki";
         Dog.bark();

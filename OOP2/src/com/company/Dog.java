@@ -14,9 +14,9 @@ public class Dog extends Animal {
         super(color,age);
         this.name = name;
     }
-    /*public void say (String sound){
+    public void sayDog (String sound){
         System.out.println("haw-haw" + sound);
-    }*/
+    }
     //классы находящиеся внутри других классов - inner class
     public static class Cat {
         public String name;

@@ -13,7 +13,7 @@ public abstract class Animal {
         this.color=color; // ссылка на текущий экземпляр объекта
         this.age=age;
     }
-    //public abstract void sayDog ();
+    public abstract void sayDog ();
 
 
 }
