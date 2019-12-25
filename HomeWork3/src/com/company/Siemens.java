@@ -7,7 +7,7 @@ public class Siemens extends CoffeMachine  {
         super.tankWater = 20.0f;
         super.tankCoffe = 7.0f;
         super.waterLevel = tankWater;
-        super.coffeLevel = 0.0f;
+        super.coffeLevel = tankCoffe;
         super.waterSpend = 0.03f;
         super.coffeSpend = 0.01f;
     }

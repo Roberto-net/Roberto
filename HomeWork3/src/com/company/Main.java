@@ -5,9 +5,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // String stringMenu = null;
-
-        //
         Scanner scanner = new Scanner(System.in);
         System.out.println("Выберите модель кофемашины ");
         System.out.println("1  Siemens" + "      " + "2  Jura");

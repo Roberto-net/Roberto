@@ -144,7 +144,7 @@ public abstract class CoffeMachine implements menu {
         }
         public void fillCoffe () {
             float coffe = 0.001f;
-            for (; this.coffeLevel <= tankCoffe; this.coffeLevel += coffeSpend) {
+            for (; this.coffeLevel <= tankCoffe; this.coffeLevel += coffe) {
             }
             System.out.print("Бак с кофе заполнен");
             System.out.println();
