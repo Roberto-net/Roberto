@@ -1,4 +1,7 @@
 package com.company;
+import java.lang.String;
+import java.util.Date;
+
 
 public class Main {
     public static void main(String [] args){
@@ -47,10 +50,34 @@ public class Main {
         s.indexOf(55);//возвращает индекс символа по номеру ASCII таблицы
         //split разделяет строку по определителю(строка или символ)
         s.split(" ");
-
-
-
-
+        //форматирование строк
+        /* флаги форматирования
+        %s - string
+        %d - digit(любое целое число int, long)
+        %f - double/float
+        %b - boolean
+        %c - char
+        %t - date (year, month)
+        %% - вывод символа процента
+        \n - переход на новую строку
+        \t - символ табуляции
+        \b - удаляет предыдущий символ
+        \\- выводит  \
+        */
+        float high = 185.1f;
+        /*String sFormat = new String.format(
+                "My name is %s.I am %d years old.\nMy high %f sm.\nI will know JAVA at 100%%.",
+                "Ctulhu", 31, high);
+        System.out.println(sFormat);*/
+        Date d = new Date();
+        System.out.println(d);
+        String sFormat2= String.format(
+                "Мое счастливое число  - %2$d. Мой любимый цвет %1$s",
+                "red", 24);
+        System.out.println(sFormat2);
+        // преобразование нестркоовых объектов в строки
+        //String sa= String.valueOf(high);
+        System.out.println(String.valueOf(high));
 
 
     }
