@@ -73,34 +73,44 @@ public class Main {
         String date=scanner();
         System.out.println("Введите желаемое задание на выбранную дату");
         String tempTask = scanner();
-        ArrayList<Task> tasks= main.get(dateFormat(date));
+        ArrayList<Task> tempList= main.get(dateFormat(date));
+        if (tempList==null){
+            ArrayList<Task> nList = new ArrayList<>();
+            nList.add(task1(tempTask));
+            main.put(dateFormat(date),nList);
+            return main;
+        }
         if (main.containsKey(dateFormat(date))){
-            System.err.println("Такое задание уже существует");
-            /*while (true) {
-                for (int i = 0; i < tasks.size(); i++) {
-                    Task tempT = tasks.get(i);
+            ArrayList<Task> temp= main.get(dateFormat(date));
+            while (true) {
+                for (int i = 0; i < temp.size(); i++) {
+                    Task tempT = temp.get(i);
                     if (tempT.content.equals(tempTask)) {
                         System.err.println("Такое задание уже существует");
                         tempT = null;
                         System.gc();
                         System.out.println("Введите другое задание");
-                    }
+                        //return main;
+                    }else {
+                    System.out.println("мб тут");
                     tempT = null;
                     System.gc();
+                    }
                 }
-            }*/
+            }
         }else {
-            Task temp=new Task(tempTask,Condition.NOTDONE);
-            tasks.add(temp);
-            main.put(dateFormat(date),tasks);
+            System.out.println("1");
+            tempList.add(task1(tempTask));
+            System.out.println("2");
+            main.put(dateFormat(date),tempList);
+            System.out.println("3");
+            return main;
         }
-        return main;
     }
     public static Date dateFormat (String date){
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         try {
             Date tempDate =  formatter.parse(date);
-            System.out.println(tempDate);
             return tempDate;
         } catch (ParseException e) {
             e.printStackTrace();
@@ -207,31 +217,6 @@ public class Main {
         System.out.println("4 - Показать весь список");
         System.out.println("5 - Назад");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public static void hurt(int a){
 
     }
@@ -241,8 +226,8 @@ public class Main {
         t.put(new Date(),tempArr);
         return t;
     }
-    public static Task task1(String content, Condition t ){
-        Task taskTODO = new Task(content,t);
+    public static Task task1(String content){
+        Task taskTODO = new Task(content,Condition.NOTDONE);
         return taskTODO;
     }
     public static String scanner (){
