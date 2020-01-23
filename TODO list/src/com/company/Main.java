@@ -91,11 +91,11 @@ public class Main {
                         System.gc();
                         System.out.println("Введите другое задание");
                         //return main;
-                    }else {
+                    }
                     System.out.println("мб тут");
                     tempT = null;
                     System.gc();
-                    }
+
                 }
             }
         }else {
