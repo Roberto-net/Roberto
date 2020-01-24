@@ -50,7 +50,7 @@ public class Main {
                     }
                     break;
                 case 3://Показать список дел
-                    System.out.println(main);
+                    showTaskOnTheDay(main,getDate());
                     break;
                 case 4://Завершить работу
                     return main;
@@ -66,6 +66,29 @@ public class Main {
             System.out.print(e.indexOf(e.get(i)));
             System.out.print(" Задание -  ");
             System.out.print(e.get(i));
+        }
+    }
+    public static ArrayList<Date> getDate(){
+        ArrayList<Date> date=new ArrayList<>();
+        Date date1=new Date();
+        date.add(date1);
+        return date;
+    }
+    public static void showTaskOnTheDay(HashMap<Date,ArrayList<Task>> main,ArrayList<Date> dates){
+        for (int i =0;i<dates.size();i++){
+            ArrayList<Task> arrayList= main.get(dates.get(i));
+            if (arrayList==null){
+                //System.out.println("На эту дату задач нет");
+                System.out.println("Заданий НЕТ.Отдохни.Расслабся.");
+            }else {
+                for (int k = 0; k < arrayList.size(); k++) {
+                    Task task = arrayList.get(k);
+                    System.out.println(dates.get(i));
+                    System.out.print(task.content);
+                    System.out.print(" - ");
+                    System.out.print(task.condition);
+                }
+            }
         }
     }
     public static HashMap<Date,ArrayList<Task>> putTask(HashMap<Date,ArrayList<Task>> main){
@@ -90,22 +113,20 @@ public class Main {
                         tempT = null;
                         System.gc();
                         System.out.println("Введите другое задание");
-                        //return main;
+                        return main;
                     }
-                    System.out.println("мб тут");
                     tempT = null;
                     System.gc();
 
                 }
+                tempList.add(task1(tempTask));
+                main.put(dateFormat(date),tempList);
+                System.out.println("Задание успешно добавлено");
+                return main;
             }
-        }else {
-            System.out.println("1");
-            tempList.add(task1(tempTask));
-            System.out.println("2");
-            main.put(dateFormat(date),tempList);
-            System.out.println("3");
-            return main;
         }
+        System.out.println("Возникла какая то ошибка. Нужно разбираться.");
+        return main;
     }
     public static Date dateFormat (String date){
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
