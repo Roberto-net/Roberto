@@ -2,59 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba41ec6-5a26-4038-a5ab-d335fbb222f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../TODO list/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/TODO list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/TODO list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/out/production/TODO list/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/out/production/TODO list/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/out/production/TODO list/com/company/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/out/production/TODO list/com/company/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/src/com/company/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/src/com/company/Condition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODO list/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO list/src/com/company/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO list/src/com/company/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yyy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yyy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yyy/out/production/yyy/com/company/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../yyy/out/production/yyy/com/company/Test.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Condition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,52 +21,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/company/Condition.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Task.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
     <option name="width" value="1346" />
     <option name="height" value="740" />
   </component>
+  <component name="ProjectId" id="1WqbPbUsUqEmZudX1rOObVcs9QL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TODO_List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TODO_List" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TODO_List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TODO_List" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TODO_List" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TODO_List" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -157,69 +72,22 @@
       <workItem from="1579757717683" duration="11000" />
       <workItem from="1579757968904" duration="124000" />
       <workItem from="1579758220596" duration="605000" />
+      <workItem from="1579880049632" duration="7000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3004000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1346" height="740" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2654321" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30868167" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
