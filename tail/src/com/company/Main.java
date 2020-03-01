@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args)  {
         String l="", p="", n="";
         long milisStart=System.currentTimeMillis();
-        //l=args[0];
+        l=args[0];
         int k=10;
         if (l.equals(null) || l.equals("")){
             System.err.println("");
@@ -18,15 +18,13 @@ public class Main {
         for (int i=1;i<args.length;++i) {
             String arg = args[i];
             if (arg.equalsIgnoreCase("-All")||arg.equalsIgnoreCase("-a")) {
-                p = args[++i];
+                p = "all";
             }
             if (arg.equalsIgnoreCase("-nl")){
-                k=Integer.parseInt(args[i++]);
+                p="nl";
+                k=Integer.parseInt(args[i+1]);
             }
         }
-        System.err.println("l = " + l);
-        System.err.println("p = " + p);
-        System.err.println("n = " + n);
         HashMap<Integer,String> stringInText= new HashMap<>();
         RandomAccessFile raf;
         String s="";
@@ -34,7 +32,7 @@ public class Main {
         try {
             //raf = new RandomAccessFile("Necronomicon.txt","r");
             //raf = new RandomAccessFile("shadow.txt","r");
-            raf= new RandomAccessFile("TheCallofCthulhu.txt","r");
+            raf= new RandomAccessFile(l,"r");
             while((s=raf.readLine())!=null){
                 stringInText.put(strNumber,s);
                 strNumber+=1;
@@ -45,24 +43,36 @@ public class Main {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-        for (int i =1;i<=10;i++){
-                System.out.print(i);
-                System.out.print(" - ");
-                System.out.print(stringInText.get(i));
-                System.out.print("\n");
-        }
-        if (k>stringInText.size()){
-            k=stringInText.size()-1;
-        }
-        for (int i =stringInText.size()-k;i<=stringInText.size();i++){
-            if (!stringInText.get(i).equalsIgnoreCase("")) {
-                if (stringInText.get(i)!=null) {
-                    System.out.print(i);
-                    System.out.print(" - ");
-                    System.out.print(stringInText.get(i));
-                    System.out.print("\n");
+        switch (p){
+            case "all":
+                for (int i =1;i<stringInText.size();i++){
+                    if (!stringInText.get(i).equalsIgnoreCase("")) {
+                        if (stringInText.get(i)!=null) {
+                            System.out.print(i);
+                            System.out.print(" - ");
+                            System.out.print(stringInText.get(i));
+                            System.out.print("\n");
+                        }
+                    }
                 }
-            }
+                return;
+            case "nl":
+                if (k>stringInText.size()){
+                    k=stringInText.size()-1;
+                }
+                for (int i =stringInText.size()-k;i<=stringInText.size();i++){
+                    if (!stringInText.get(i).equalsIgnoreCase("")) {
+                        if (stringInText.get(i)!=null) {
+                            System.out.print(i);
+                            System.out.print(" - ");
+                            System.out.print(stringInText.get(i));
+                            System.out.print("\n");
+                        }
+                    }
+                }
+                break;
+            default:
+                System.out.println("попробуйте другие комбинации");
         }
         System.out.print("Время работы программы");
         System.out.print(" - ");
