@@ -1,14 +1,16 @@
-<scheme name="_@user_High сontrast" version="142" parent_scheme="Darcula">
+<scheme name="_@user_High contrast" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2021-04-24T13:47:12</property>
+    <property name="created">2021-12-26T01:26:56</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2019.2.4.0.0</property>
+    <property name="ideVersion">2021.1.3.0.0</property>
     <property name="modified">2021-12-26T01:29:21</property>
-    <property name="originalScheme">High сontrast</property>
+    <property name="originalScheme">High contrast</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="9924" />
     <option name="ANNOTATIONS_COLOR" value="ffffff" />
+    <option name="ActionButton.iconTextForeground" value="ffffff" />
+    <option name="BookmarkIcon.background" value="e0861f" />
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="66" />
     <option name="CONSOLE_BACKGROUND_KEY" value="0" />
@@ -35,10 +37,15 @@
     <option name="GUTTER_BACKGROUND" value="131314" />
     <option name="INDENT_GUIDE" value="666666" />
     <option name="INFORMATION_HINT" value="450073" />
+    <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="cccccc8c" />
+    <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="cccccc8c" />
     <option name="LINE_NUMBERS_COLOR" value="999999" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ffffff" />
     <option name="METHOD_SEPARATORS_COLOR" value="cccccc" />
     <option name="MODIFIED_LINES_COLOR" value="1aabff" />
+    <option name="MnemonicIcon.background" value="0" />
+    <option name="MnemonicIcon.borderColor" value="e0861f" />
+    <option name="MnemonicIcon.foreground" value="ffffff" />
     <option name="NOTIFICATION_BACKGROUND" value="80" />
     <option name="QUESTION_HINT" value="5380" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="b4c738" />
@@ -48,6 +55,7 @@
     <option name="SELECTION_BACKGROUND" value="6280" />
     <option name="SEPARATOR_BELOW_COLOR" value="808080" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="ffffff" />
+    <option name="STRING_CONTENT_INDENT_GUIDE" value="54b33e" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="0" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="ffffffbe" />
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="e6e6e65a" />
@@ -65,7 +73,7 @@
     <option name="ScrollBar.Transparent.hoverTrackColor" value="e6e6e65a" />
     <option name="ScrollBar.Transparent.thumbBorderColor" value="0" />
     <option name="ScrollBar.Transparent.thumbColor" value="ffffffbe" />
-    <option name="ScrollBar.Transparent.trackColor" value="6e6e60" />
+    <option name="ScrollBar.Transparent.trackColor" value="e6e6e60" />
     <option name="ScrollBar.background" value="0" />
     <option name="ScrollBar.hoverThumbBorderColor" value="0" />
     <option name="ScrollBar.hoverThumbColor" value="ffffffbe" />
@@ -547,6 +555,17 @@
         <option name="BACKGROUND" value="153811" />
       </value>
     </option>
+    <option name="INLAY_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="0" />
@@ -626,6 +645,16 @@
       <value>
         <option name="FOREGROUND" value="806226" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LIVE_TEMPLATE_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="1aebff" />
+      </value>
+    </option>
+    <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
+      <value>
+        <option name="EFFECT_COLOR" value="999999" />
       </value>
     </option>
     <option name="LOG_DEBUG_OUTPUT">
