@@ -3,7 +3,7 @@
     <property name="created">2021-04-24T13:47:12</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2019.2.4.0.0</property>
-    <property name="modified">2022-02-16T11:57:05</property>
+    <property name="modified">2022-02-16T12:50:23</property>
     <property name="originalScheme">High сontrast</property>
   </metaInfo>
   <colors>
@@ -216,7 +216,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="" />
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="aaff" />
@@ -475,7 +475,7 @@
         <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="" />
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="aaff" />
@@ -488,7 +488,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="HTML_TAG_NAME" baseAttributes="" />
+    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="aaff" />
@@ -797,7 +797,7 @@
         <option name="FOREGROUND" value="fa3232" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" baseAttributes="" />
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="aaff" />
